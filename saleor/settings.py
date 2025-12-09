@@ -210,7 +210,7 @@ DEFAULT_FROM_EMAIL: str = os.environ.get(
 )
 
 MEDIA_ROOT: str = os.path.join(PROJECT_ROOT, "media")
-MEDIA_URL: str = os.environ.get("MEDIA_URL", "/media/")
+MEDIA_URL: str = os.environ.get("MEDIA_URL", "/thumbnail/")
 
 STATIC_ROOT: str = os.path.join(PROJECT_ROOT, "static")
 STATIC_URL: str = os.environ.get("STATIC_URL", "/static/")
